@@ -19,7 +19,7 @@
   <!-- Cercle de fond -->
   <circle cx="120" cy="90" r="85" fill="#ffffff"/>
 
-  <!-- Texte style signature -->
+  <!-- Texte style signature centré -->
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
         font-family="'Great Vibes', cursive" font-size="50"
         fill="url(#neonG)" filter="url(#neonGlow)">Ranto</text>
@@ -28,5 +28,7 @@
   <g transform="translate(160, 120) scale(1.8)">
     <rect x="0" y="0" width="28" height="20" rx="4" ry="4" fill="url(#neonG)" filter="url(#neonGlow)"/>
     <polyline points="0,0 14,10 28,0" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <!-- Texte "Pro" petit coin inférieur droit en Arial noir -->
+    <text x="24" y="18" font-family="Arial, sans-serif" font-size="6" fill="#000000" text-anchor="end">Pro</text>
   </g>
 </svg>
